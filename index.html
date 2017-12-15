@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+         
+
+           
+</head>
+
+     
+
+
+
+<body>
+
+
+ <nav>
+    <div class="nav-wrapper blue-grey darken-4">
+      <a href="#!" class="brand-logo"><i class="material-icons">angel</i>EL BLOG DE ANGEL</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+        <li><a href="segundo.html"><i class="material-icons">view_module</i></a></li>
+        <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+        <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+ 
+  
+  <button id="insertar">Guardar</button>
+  
+ 
+  
+  <form>
+    <input type="text" id="nombre">
+    <input type="text" id="telefono">
+    <input type="submit" value="Guardar" id="boton"> 
+  </form>
+
+   
+ 
+
+ <ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/office.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        
+
+    <h1>Inicia sesión</h1>
+    <div id="root"></div>
+    <a class="waves-effect waves-light btn small btn" id="login"><i class="material-icons right">Google</i>Iniciar con Google</a>
+
+    <br>
+
+     <div class="parallax-container">
+      <div class="parallax"><img src="img/orar.jpg">
+      
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+ 
+   
+ 
+      
+   
+
+  <!-- Tap Target Structure -->
+  <div class="tap-target" data-activates="menu">
+    <div class="tap-target-content">
+      <h5>Title</h5>
+      <p>A bunch of text</p>
+    </div>
+  </div>
+            
+         
+        
+
+ <footer class="page-footer teal lighten-2">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+
+
+    
+
+
+    
+    
+    
+    
+    
+    <script type="text/javascript" src="js/materialize.min.js">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
+
+    <script src="webapp.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBqtLCLiJe-d59sTkGOTNKbSBEMJ-cY42w",
+            authDomain: "webapp-fd8df.firebaseapp.com",
+            databaseURL: "https://webapp-fd8df.firebaseio.com",
+            projectId: "webapp-fd8df",
+            storageBucket: "webapp-fd8df.appspot.com",
+            messagingSenderId: "380524968343"
+        };
+        firebase.initializeApp(config);
+    </script>
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="app.js"></script>
+   <script>
+
+	var refTagger = {
+		settings: {
+			bibleVersion: "LBLA95"			
+		}
+	};
+	(function(d, t) {
+		var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+		g.src = "//api.reftagger.com/v2/RefTagger.es.js";
+		s.parentNode.insertBefore(g, s);
+	}(document, "script"));
+</script>
+
+</body>
+
+</html>
