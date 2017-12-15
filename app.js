@@ -41,8 +41,8 @@ function guardaDatos(user) {
 $('#insertar').click(function() {
     firebase.database().ref("hermanos/")
 
-    .set({
-        Nombre: "Joel Adilio Erazo",
+    .push({
+        Nombre: "Juan Luis Erazo",
         Edad: "30",
         Telefono: "98000178"
 
