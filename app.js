@@ -74,4 +74,4 @@ var savePerson = function() {
     firebase.set(datosPersona);
 
 };
-$("#boton").click(savePerson);
+$("#guardar").click(savePerson);
